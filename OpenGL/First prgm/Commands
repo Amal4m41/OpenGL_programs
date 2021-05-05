@@ -1,0 +1,13 @@
+Commands : 
+
+
+Installing opengl:
+
+1.sudo apt-get update
+2.sudo apt-get install freeglut3-dev
+3.sudo apt-get install libglu1-mesa-dev mesa-common-dev
+
+Compiling "One.c" file:
+$ cc One.c -lglut -lGLU -lGL
+Show the output (a.out is the result of compilation)
+$ ./a.out 
